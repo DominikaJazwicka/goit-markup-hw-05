@@ -87,7 +87,7 @@ p {
     margin: auto;
     align-items: center;
     justify-content: center;
-    transition: ease-out 0,5s;
+    transition-duration: 0.5s;
 }
 
 .link-contact-nav:hover {
@@ -248,7 +248,7 @@ p {
     justify-content: center;
     align-items: center;
     background-color: none;
-    transition: ease-out 0,5s;
+    transition-duration: 0.5s;
 }
 
 .circle:hover svg { fill: #fff }
@@ -294,22 +294,21 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #2196F3;
+    background-color: #757575;
     width: 200px;
     height: 50px;
     border: none;
     border-radius: 5px;
-    transition: ease-out 0,5s;
+    transition-duration: 0.5s;
 }
 
 
 .btn-main:hover {
     width: 200px;
     height: 50px;
-    background-color: white;
     transition: ease-out 0,5s;
     cursor: pointer;
-    color: #2F303A;
+    background-color:#2196F3;
 }
 
 
@@ -319,7 +318,7 @@ p {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color:  rgba(0, 0, 0, 0,5);
+    background-color:  rgba(0, 0, 0, 0.5);
 }
 
 .modal {
@@ -330,6 +329,7 @@ p {
     min-height: 581px;
     transform: translate(-50%, -50%);
     background-color: #fff;
+    transition: 0.5s;
 }
 
 .close-btn {
@@ -348,19 +348,11 @@ p {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+
 }
 
 
 
-
-
-
-
-
-.btn-main .btn-main-text:hover {
-    color: #2F303A;
-    transition: ease-out 0,5s;
-}
 
 .btn-main-text {
     color:#E5E5E5;
@@ -600,6 +592,7 @@ p {
 
 
 .schedule-body {
+    transition-duration: 0.5s;
     display: inline;
     width: 114px;
     height: 38px;
